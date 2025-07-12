@@ -1,0 +1,21 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="個人資料">
+
+        <EditTextPreference
+            android:capitalize="characters"
+            android:inputType="text"
+            android:key="license_plates"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="車牌號碼" />
+
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

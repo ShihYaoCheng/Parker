@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jas.parker">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activity.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TimerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.inquire.InquireTaipeiActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.inquire.InquireNewTaipeiActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.inquire.InquireParkingFeeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.inquire.TaipeiParkingFeeWebview"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".module.inquire.InquireTaipeiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".module.inquire.KeelungParkingFeeWebview"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".activity.HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".service.FeeNotificationService"
+            android:enabled="true"
+            android:exported="false" />
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activity.IntroActivity"
+            android:label="@string/title_activity_my_intro"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.NewActivity"
+            android:label="@string/title_activity_new"
+            android:theme="@style/MyMaterialTheme"></activity>
+    </application>
+
+</manifest>

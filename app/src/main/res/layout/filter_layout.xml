@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView_pleaseInputMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="22dp"
+                android:layout_marginTop="25dp"
+                android:layout_toStartOf="@+id/textView_upLimit"
+                android:text="請選擇金額"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_lowLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/numberPicker_lowLimit"
+                android:layout_alignStart="@+id/textView_pleaseInputMoney"
+                android:layout_marginBottom="76dp"
+                android:text="下限:"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView_upLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/textView_lowLimit"
+                android:layout_centerHorizontal="true"
+                android:text="上限:"
+                android:textSize="20sp" />
+
+            <NumberPicker
+                android:id="@+id/numberPicker_upLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/numberPicker_lowLimit"
+                android:layout_toEndOf="@+id/textView_upLimit" />
+
+            <NumberPicker
+                android:id="@+id/numberPicker_lowLimit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_pleaseInputMoney"
+                android:layout_toEndOf="@+id/textView_lowLimit" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Parker</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="noteText">填下你想記錄的停車資訊</string>
+    <string name="yes">確定</string>
+    <string name="no">取消</string>
+    <string name="clear">清除</string>
+    <string name="ssdadas">請輸入通知金額</string>
+    <string name="timmer">00:00</string>
+
+    <string name="google_maps_key">AIzaSyCGfpmvT5Mr6un3usJupVlq-xhE8WyVTRQ</string>
+    <string name="google_maps_directions_key">AIzaSyDWGqivuLjR3Y4UcUeokeHcT-QP-uQPIX8</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_activity_m">Map2</string>
+    <string name="spinner_lot">請點選定位</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="up_to_fee_notification_title_template">Up to fee: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="up_to_fee_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_delete">Delete</string>
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="record_parking">紀錄停車位</string>
+    <string name="title_settings_clean_photo">每次開始時清空照片</string>
+    <string name="summary_settings_clean_photo">於每次開始新的停車場紀錄時，直接清空之前的照片。</string>
+    <string name="title_activity_parking_fee_webview">ParkingFeeWebviewActivity</string>
+    <string name="title_activity_find_parking_lot">FindParkingLot</string>
+    <string name="input_positive_integer">請輸入正整數</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_intro">MyIntro</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="customized_intro">Start custom Intro</string>
+    <string name="disable_swipe_intro_1">Disable swipe</string>
+    <string name="disable_swipe_intro_2">Disable swipe Layout 2</string>
+    <string name="default_intro">Start default Intro</string>
+    <string name="fade_animation">Set Fade animation</string>
+    <string name="custom_animation">Set custom Transformer</string>
+    <string name="progress_indicator">Set progress indicator</string>
+    <string name="custom_indicator">Set custom indicator</string>
+    <string name="custom_color_indicator">Set custom color indicator</string>
+    <string name="custom_color_progress_indicator">Set custom color progress indicator</string>
+    <string name="second_layout_intro">Start Intro with Layout 2</string>
+    <string name="title_activity_default_intro">DefaultIntro</string>
+    <string name="title_activity_custom_intro">CustomIntro</string>
+    <string name="title_activity_second_intro">SecondLayoutIntro</string>
+    <string name="title_activity_default_intro_disable">DisableSwipeDefaultLayoutIntro</string>
+    <string name="title_activity_second_intro_disable">DisableSwipeSecondLayoutIntro</string>
+    <string name="title_activity_disable_swipe_intro">DisableSwipeIntro</string>
+    <string name="skip">Y U DO DIS TO ME?</string>
+    <string name="header_animations">Animations</string>
+    <string name="header_indicators">Indicators</string>
+
+    <string name="zoom_animation">SET ZOOM ANIMATION</string>
+    <string name="color_animation">SET COLOR ANIMATION</string>
+    <string name="flow_animation">SET FLOW ANIMATION</string>
+    <string name="depth_animation">SET DEPTH ANIMATION</string>
+    <string name="slideover_animation">SET SLIDEOVER ANIMATION</string>
+    <string name="disable_swiping_slide_text">The first button disables swiping to the next slide, but you can still swipe back to previous slides. Swiping is re-enabled after moving to a previous slide \n\n The second button disables swiping completely. \n\n The third button disables the Next/Done button, independent of locking swiping.</string>
+    <string name="permission_intro">Intro with Permissions</string>
+    <string name="permission_intro2">Intro with Permissions 2</string>
+    <string name="title_activity_permissions_intro">Permissions Intro</string>
+
+    <!-- Input demo slide -->
+    <string name="slide_input_title">Slide: Input Demo</string>
+    <string name="slide_input_description">This slide demonstrates how input is saved over orientation and slide changes.</string>
+    <string name="slide_input_edittext">Type something here.</string>
+    <string name="slide_input_checkbox">Check something</string>
+    <string name="title_activity_new">NewActivity</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jas.parker.module.inquire.InquireNewTaipeiActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新北市查停車費"
+        android:id="@+id/textView_newTaipei_inquireParkingFee"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="請輸入車號:"
+        android:id="@+id/textView_newTaipei_inputNumber"
+        android:layout_marginTop="77dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView_newTaipei_inquireParkingFee"
+        android:layout_toStartOf="@+id/edt_newTaipei_plateNumber" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_newTaipei_plateNumber"
+        android:layout_alignBottom="@+id/textView_newTaipei_inputNumber"
+        android:layout_alignParentEnd="true"
+        android:inputType="text"
+        android:hint="車號需輸入「-」"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/radioGroup_newTaipei_vehicles"
+        android:layout_below="@+id/textView_newTaipei_inputNumber"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="汽車"
+            android:id="@+id/radioButton_newTaipei_car"
+            android:layout_marginTop="30dp"
+            android:textSize="24sp"
+            android:layout_below="@+id/edt_newTaipei_plateNumber"
+            android:layout_toStartOf="@+id/radioButton_newTaipei_motor" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="機車"
+            android:id="@+id/radioButton_newTaipei_motor"
+            android:textSize="24sp"
+            android:layout_alignTop="@+id/radioButton_newTaipei_car"
+            android:layout_alignEnd="@+id/textView_newTaipei_inquireParkingFee" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查詢"
+        android:id="@+id/btn_newTaipei_inquire"
+        android:textSize="24sp"
+        android:layout_below="@+id/radioGroup_taipei_vehicles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="搜尋停車場" />
+        <item
+            android:id="@+id/nav_Inquire"
+            android:icon="@drawable/ic_local_atm_black_24dp"
+            android:title="查詢停車費" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="常用停車場" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="歷史紀錄" />
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="回報給我們" />
+
+
+    </group>
+
+    <item android:title="其他">
+        <menu>
+
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="設定" />
+            <item
+                android:id="@+id/nav_intro"
+                android:icon="@drawable/ic_help_black_48dp"
+                android:title="導覽" />
+        </menu>
+    </item>
+
+</menu>
