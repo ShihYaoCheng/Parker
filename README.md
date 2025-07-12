@@ -22,7 +22,7 @@ A mobile application that helps users search for nearby parking spaces, calculat
 - 3rd Place, International ICT Innovative Services Awards
 
 ## 📹 Demo
-[▶️ Watch the Demo Video](https://your_youtube_link_here)
+[▶️ Watch the Demo Video](https://youtu.be/N_hwxbIPnwY)
 
 ## 📄 Report
 See `docs/` folder for project proposal and slides
