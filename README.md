@@ -17,9 +17,10 @@ A mobile application that helps users search for nearby parking spaces, calculat
 - UX Design, Google Maps API integration, Backend logic, Open data normalization
 
 ## 🏆 Awards
-- 2016 Creative Software Applications Contest
+- 2016 Creative Software Applications Contest – Excellence Award
 - Chunghwa Telecom Software Development Award
-- 3rd Place, International ICT Innovative Services Awards
+- 3rd Place – Grand Summer Project
+- 3rd Place, International ICT Innovative Services Awards 2016
 
 ## 📹 Demo
 [▶️ Watch the Demo Video](https://youtu.be/N_hwxbIPnwY)
